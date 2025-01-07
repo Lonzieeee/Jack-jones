@@ -1,0 +1,28 @@
+.category-belt {
+  width: 100%;
+  overflow: hidden; /* Ensures only visible items are displayed */
+  position: relative; /* Positioning for scrolling effect */
+  padding: 40px 0; /* Increased padding for more space around the images */
+  background-color: #f9f9f9;
+  margin-top: -20px;
+}
+
+.category-belt-wrapper {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+}
+
+.category-belt-item {
+  flex: 0 0 25%; /* Show 4 items at a time (25% each) */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.category-belt-item img {
+  width: 90%; /* Reduced size for less prominence */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* Slower transition for smoother effect */
+}
