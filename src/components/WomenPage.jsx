@@ -12,6 +12,7 @@ const WomenPage = ({ firstCategories, secondCategories }) => {
             src={jeansImage}
             alt="Women's Fashion Hero"
             style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            className="responsive-img" // Added responsive class
           />
         </section>
 

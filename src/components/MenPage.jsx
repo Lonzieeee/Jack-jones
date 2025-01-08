@@ -52,6 +52,10 @@ minWidth:"100%",
 minHeight:"100%",
                 background: "transparent",
                
+
+ transform: "scale(1.5)", 
+        transformOrigin: "center",
+               
               }}
             ></iframe>
           </div>

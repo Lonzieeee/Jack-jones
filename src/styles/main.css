@@ -1,8 +1,8 @@
-/* src/styles/main.css */
+/* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  margin: 0; /* Ensure no margin on the body */
-  padding: 0; /* Ensure no padding on the body */
+  margin: 0;
+  padding: 0;
   background-color: #f4f4f4;
 }
 
@@ -10,39 +10,101 @@ body {
   text-align: center;
 }
 
-.App-header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  margin: 0; /* Remove any margin to avoid gaps */
+/* Hero Section */
+.hero img {
+  display: block;
+  width: 100%; /* Ensure the image scales to fit the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin: 0 auto;
 }
 
-.App-header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; /* Remove margin for proper alignment */
+/* Category Belt */
+.category-belt {
+  margin: 10px auto;
+  padding: 0 5%;
 }
 
-.App-header nav li {
-  display: inline;
-  margin-right: 20px;
+/* Video Section */
+.video-section iframe {
+  display: block;
+  width: 100%;
+  height: auto; /* Ensure proper scaling */
+  object-fit: cover;
 }
 
-.App-header nav a {
-  color: white;
-  text-decoration: none;
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Mobile-specific styles */
+  body {
+    font-size: 14px;
+  }
+
+  /* Hero Section */
+  .hero img {
+    width: 100%;
+    max-height: 300px; /* Limit height for better fit */
+  }
+
+  /* Category Belt */
+  .category-belt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two items per row for small screens */
+    gap: 10px;
+  }
+
+  .category-belt img {
+    max-width: 100%; /* Scale images to fit grid cells */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Video Section */
+  .video-section {
+    width: 100%;
+    height: 40vh; /* Adjust height for small screens */
+    margin-top: 10px;
+  }
+
+  .video-section iframe {
+    width: 100%;
+    height: 100%; /* Fill the container */
+  }
+
+  .video-section h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  margin-top: 20px;
+@media (max-width: 1024px) {
+  /* Tablet-specific styles */
+  .hero img {
+    max-height: 400px; /* Adjust hero image size for tablets */
+  }
+
+  .category-belt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row for tablets */
+    gap: 15px;
+  }
+
+  .video-section iframe {
+    height: 50vh;
+  }
 }
 
-/* Additional fixes for hero section */
-.hero {
-  margin: 0; /* Remove any margin around hero section */
-  padding: 0; /* Remove padding around hero section */
-  background-color: transparent; /* Ensure no background color */
+@media (min-width: 1025px) {
+  /* Desktop-specific styles */
+  .hero img {
+    height: auto;
+  }
+
+  .category-belt {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .video-section iframe {
+    height: 70vh;
+  }
 }
