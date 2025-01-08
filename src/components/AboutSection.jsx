@@ -34,7 +34,7 @@ function AboutSection() {
             whether you're dressing to impress on a date, chilling with your
             friends, or a smart-casual outfit for work.
           </p>
-          <a href="#" className="see-more">SEE MORE</a>
+          {/* <a href="#" className="see-more">SEE MORE</a> */}
         </div>
       </div>
 
@@ -43,23 +43,141 @@ function AboutSection() {
         <h3>YOU MIGHT BE INTERESTED IN</h3>
         <div className="interested-grid">
           <ul>
-            <li>MOST POPULAR</li>
-            <li>DENIM JACKETS</li>
-            <li>T-SHIRTS</li>
-            <li>BOOTS</li>
-            <li>JEANS</li>
-            <li>BUSINESS SHIRTS</li>
-            <li>HOODIES</li>
-            <li>PLUS SIZE</li>
+          <li>
+              <a 
+                href="https://www.jackjones.com/en-us/most-popular" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+                MOST POPULAR
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/jackets/denim-jackets" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+               DENIM JACKETS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/t-shirts" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+                T-SHIRTS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/shoes/boots" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+               BOOTS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/jeans" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+              JEANS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/shirts/formal-shirts" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+               BUSINESS SHIRTS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/sweatshirts/hoodies" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+             HOODIES
+              </a>
+            </li>
+            
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/plus-size" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+             PLUS SIZE
+              </a>
+            </li>
           </ul>
           <ul>
-            <li>CARGO PANTS</li>
-            <li>BLAZERS</li>
-            <li>LEATHER JACKETS</li>
-            <li>SWEATSHIRTS</li>
-            <li>LOOSE FIT JEANS</li>
-            <li>JOGGERS</li>
-            <li>CHECKED SHIRTS</li>
+          <li>
+              <a 
+                href="https://www.jackjones.com/en-us/trousers/cargo-trousers" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+              CARGO-PANTS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/tailoring/blazers" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+              BLAZERS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/jeans/loose-fit-jeans" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+               LOOSE FIT JEANS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/shirts/check-shirts" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+              CHECKED SHIRTS
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://www.jackjones.com/en-us/jackets/leather-jackets" 
+                // target="_blank" 
+                rel="noopener noreferrer"
+                className="popular-link"
+              >
+               LEATHER JACKETS
+              </a>
+            </li>
+           
+           
           </ul>
         </div>
       </div>

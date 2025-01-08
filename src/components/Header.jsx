@@ -144,7 +144,7 @@ function Header() {
         }}
       >
         <Link
-          to="/new-in"
+          to="https://www.jackjones.com/en-us/new-in"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -154,7 +154,7 @@ function Header() {
           NEW IN
         </Link>
         <Link
-          to="/clothing"
+          to="https://www.jackjones.com/en-us/clothing"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -164,7 +164,7 @@ function Header() {
           CLOTHING
         </Link>
         <Link
-          to="/denim"
+          to="https://www.jackjones.com/en-us/denim"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -174,7 +174,7 @@ function Header() {
           DENIM
         </Link>
         <Link
-          to="/shoes"
+          to="https://www.jackjones.com/en-us/shoes"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -184,7 +184,7 @@ function Header() {
           SHOES
         </Link>
         <Link
-          to="/accessories"
+          to="https://www.jackjones.com/en-us/accessories"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -204,7 +204,7 @@ function Header() {
           PREMIUM
         </Link>
         <Link
-          to="/plus-size"
+          to="https://www.jackjones.com/en-us/premium"
           style={{
             textDecoration: "none",
             color: "#000",
@@ -214,7 +214,7 @@ function Header() {
           PLUS SIZE
         </Link>
         <Link
-          to="/better-world"
+          to="https://www.jackjones.com/en-us/plus-size"
           style={{
             textDecoration: "none",
             color: "#000",

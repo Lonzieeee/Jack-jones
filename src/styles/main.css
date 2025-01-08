@@ -1,40 +1,48 @@
 /* src/styles/main.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
-  .App-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  .App-header nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .App-header nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .App-header nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0; /* Ensure no margin on the body */
+  padding: 0; /* Ensure no padding on the body */
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 0; /* Remove any margin to avoid gaps */
+}
+
+.App-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove margin for proper alignment */
+}
+
+.App-header nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.App-header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Additional fixes for hero section */
+.hero {
+  margin: 0; /* Remove any margin around hero section */
+  padding: 0; /* Remove padding around hero section */
+  background-color: transparent; /* Ensure no background color */
+}

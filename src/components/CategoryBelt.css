@@ -3,7 +3,7 @@
   overflow: hidden; /* Ensures only visible items are displayed */
   position: relative; /* Positioning for scrolling effect */
   padding: 40px 0; /* Increased padding for more space around the images */
-  background-color: #f9f9f9;
+  background-color: #fff;
   margin-top: -20px;
 }
 

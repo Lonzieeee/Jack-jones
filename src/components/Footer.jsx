@@ -69,8 +69,8 @@ function Footer() {
             <i className="fab fa-pinterest"></i>
           </div>
           <div className="trustpilot">
-            <span>TrustScore 4.2</span>
-            <p>24,974 reviews</p>
+            {/* <span>TrustScore 4.2</span> */}
+            {/* <p>24,974 reviews</p> */}
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ function CategoryBelt({ categories }) {
         const updatedCategories = [...prev.slice(1), prev[0]]; // Move the first image to the end
         return updatedCategories;
       });
-    }, 3000); // Change image every 3 seconds
+    }, 6000); // Change image every 6 seconds
 
     return () => clearInterval(interval); // Cleanup on component unmount
   }, [categories]);
@@ -29,10 +29,10 @@ function CategoryBelt({ categories }) {
               <img 
                 src={category.image} 
                 alt={category.name} 
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                style={{ width: "100%", height: "auto", objectFit: "contain" }}
               />
             </a>
-            <p>{category.name}</p>
+            {/* <p>{category.name}</p> */}  {/* Removed the text under the image */}
           </div>
         ))}
       </div>
