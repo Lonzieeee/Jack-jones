@@ -3,6 +3,7 @@ import CategoryBelt from './CategoryBelt';
 import AboutSection from './AboutSection'; // Only include in MenPage
 import jeansImage from '../Assets/Images/jeans.webp';
 
+
 const MenPage = ({ firstCategories, secondCategories }) => {
   return (
     <div style={{ backgroundColor: "white", margin: 0 }}>

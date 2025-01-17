@@ -1,31 +1,63 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .nav a:hover {
-    color: #0071e3;
-  }
-  
-  .icons span {
-    margin-left: 15px;
-    cursor: pointer;
-    font-size: 18px;
-  }
-  
+header {
+  background-color: #fff;
+  color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Top row for MEN/WOMEN */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Italian No2 Expanded Bold', sans-serif;
+  font-size: 12px;
+}
+
+.header-top .menu-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-top .menu-links a {
+  text-decoration: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.header-top .brand-name {
+  text-decoration: none;
+  font-size: 28px; /* Slightly larger for emphasis */
+  font-weight: 900; /* Extra bold */
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-top .icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Middle row for navigation */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Italian No2 Expanded Bold', sans-serif;
+  font-size: 12px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+

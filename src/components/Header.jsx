@@ -1,34 +1,16 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaSearch, FaUserAlt, FaHeart, FaShoppingBag } from "react-icons/fa";
+import "./Header.css";
 
 function Header() {
   const location = useLocation(); // Hook to get the current path
 
   return (
-    <header
-      style={{
-        backgroundColor: "#fff",
-        color: "#000",
-        position: "sticky",
-        top: 0,
-        zIndex: 1000,
-        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-      }}
-    >
+    <header>
       {/* Top row for MEN/WOMEN */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "10px 30px",
-          borderBottom: "1px solid #ddd",
-          fontFamily: "'Italian No2 Expanded Bold', sans-serif",
-          fontSize: "12px",
-        }}
-      >
-        <div style={{ display: "flex", gap: "20px" }}>
+      <div className="header-top">
+        <div className="menu-links">
           <Link
             to="/"
             style={{
@@ -58,17 +40,11 @@ function Header() {
         </div>
         <Link
           to="/"
-          style={{
-            textDecoration: "none",
-            fontSize: "28px", // Slightly larger for emphasis
-            fontWeight: 900, // Extra bold
-            color: "#000",
-            fontFamily: "'Poppins', sans-serif",
-          }}
+          className="brand-name"
         >
           JACK&JONES
         </Link>
-        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+        <div className="icons">
           <div
             style={{
               position: "relative",
@@ -132,17 +108,7 @@ function Header() {
       </div>
 
       {/* Middle row for navigation */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "30px",
-          padding: "10px 30px",
-          borderBottom: "1px solid #ddd",
-          fontFamily: "'Italian No2 Expanded Bold', sans-serif",
-          fontSize: "12px",
-        }}
-      >
+      <div className="nav-links">
         <Link
           to="https://www.jackjones.com/en-us/new-in"
           style={{

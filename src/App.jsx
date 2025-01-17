@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import WomenPage from "./components/WomenPage";
 import MenPage from "./components/MenPage"; // Ensure this component exists
 import "./styles/global.css";
+import "./styles/main.css";
 // Data for the first belt (Men)
 import tshirtsImage from "./Assets/Images/tshirts.webp";
 import outwearImage from "./Assets/Images/outwear.webp";
